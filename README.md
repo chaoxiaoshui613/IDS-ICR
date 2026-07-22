@@ -47,15 +47,17 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+## Dataset
 
+The dataset files are provided in the repository as `data_ciciov.rar` and `data_nslkdd.rar`. Please extract them before running the code.
 ## Quick Start
 
 ```bash
 python main.py \
-    --source train_0_6.csv \
-    --target test_0_8.csv \
-    --shared_classes 7 \
-    --all_classes 8 \
+    --source source_ciciot_0_3.csv \
+    --target target_ciciot_0_5.csv \
+    --shared_classes 4 \
+    --all_classes 6 \
     --batch_size 64 \
     --learning_rate 5e-5 \
     --total_epochs 100 \
