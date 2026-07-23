@@ -115,17 +115,7 @@ The best model checkpoint (by HOS) is automatically tracked.
 - **HOS** = 2 × OS* × UNK / (OS* + UNK)
 - **F1**: Macro-averaged F1 score
 
-## Citation
 
-```bibtex
-@article{zhang2024ids,
-  title={Intrusion Detection System for Open Network Scenarios:
-         A Known/Unknown Attack Detection Method Based on Inter-Class Relationships},
-  author={Zhang, Jing and Wu, Chao and Fan, Chunyang and Cui, Jie},
-  journal={...},
-  year={2024}
-}
-```
 
 ---
 
@@ -242,14 +232,3 @@ python main.py \
 - **HOS** = 2 × OS* × UNK / (OS* + UNK)
 - **F1**：宏平均 F1 分数
 
-## 引用
-
-```bibtex
-@article{zhang2024ids,
-  title={Intrusion Detection System for Open Network Scenarios:
-         A Known/Unknown Attack Detection Method Based on Inter-Class Relationships},
-  author={Zhang, Jing and Wu, Chao and Fan, Chunyang and Cui, Jie},
-  journal={...},
-  year={2024}
-}
-```
