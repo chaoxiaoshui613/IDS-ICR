@@ -105,8 +105,6 @@ Training logs are saved to `--log_dir` with timestamps. Each epoch prints:
 - Per-loss values (ce, entropy, virtual, ce_ep, adv)
 - Normalized confusion matrix
 
-The best model checkpoint (by HOS) is automatically tracked.
-
 ## Metrics
 
 - **Accuracy**: Per-class averaged or weighted classification accuracy
@@ -221,8 +219,6 @@ python main.py \
 - **HOS**：OS* 与 UNK 的调和平均
 - 各项损失值（ce, entropy, virtual, ce_ep, adv）
 - 归一化混淆矩阵
-
-最优模型（按 HOS）自动保存。
 
 ## 评估指标
 
